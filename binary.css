@@ -1,0 +1,38 @@
+body, head{
+  margin:0;
+  padding:0;
+  background: #000;
+}
+
+.maincontainer{
+  width: 100%;
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: #000;
+  margin-top: 100px;
+  opacity: 0.2;
+  border-radius: 50%;
+  transition: opacity 2s, background 2s, margin 2s;
+}
+
+.container:hover{
+  width: 200px;
+  height: 200px;
+  background: #000;
+  opacity: 1;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+}
+
+.comingsoontext{
+ font-family: 'Indie Flower', cursive;
+  color: #FFF;
+  font-size: 20px;
+}
